@@ -1,0 +1,6 @@
+-   id: safety
+    name: safety
+    description: check your dependencies for known security vulnerabilities
+    entry: safety check -r
+    language: python
+    files: requirements
